@@ -1,0 +1,66 @@
+*{
+    padding:'0';
+    margin:'0';
+    font-family: 'Franklin Gothic Medium';
+    background-color: rgb(225, 165, 143);
+    box-sizing: border-box;
+    outline:none;
+}
+.container{
+    height: 80vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-size: 38px;
+    font-family: cursive;
+    color:black;
+}
+.calculator{
+    padding:20px;
+    border-radius: 35px;
+    background-color: rgb(225, 165, 143);
+    box-shadow: inset 8px 8px 17px rgb(225, 196, 186),
+                      8px 8px 17px rgb(225, 196, 186);
+    display:grid;  
+    grid-template-columns:repeat(4,70px);                                   
+}
+input{
+    grid-column: span 4;
+    background-color:rgb(225, 165, 143) ;
+    height:40px;
+    width:280px;
+    margin:auto;
+    box-shadow: inset -8px -8px 17px rgb(225, 196, 186),
+                       8px 8px  17px rgb(225, 196, 186); 
+    border:none;
+    color:black;
+    font-size:50px;
+    text-align: right;
+    border-radius:25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 45px;
+
+}
+button{
+    height:50px;
+    width:50px;
+    background-color: rgb(225, 165, 143);
+    box-shadow: inset -8px -8px 17px rgb(225, 196, 186),
+                       8px 8px  17px rgb(225, 196, 186);
+    border-radius: 35px;    
+    border:none;  
+    margin:7px; 
+    font-size:35px;     
+}
+.equalto{
+    width:120px;
+    height:50px;
+    background-color: rgb(225, 165, 143);
+    box-shadow: inset -8px -8px 17px rgb(225, 196, 186),
+                       8px 8px  17px rgb(225, 196, 186);
+
+}
